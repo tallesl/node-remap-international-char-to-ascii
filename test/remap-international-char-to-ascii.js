@@ -1,5 +1,5 @@
 var assert                        = require('assert')
-  , remapInternationalCharToAscii = require('../lib/remapInternationalCharToAscii')
+  , remapInternationalCharToAscii = require('../lib/remap-international-char-to-ascii')
 
 it('should remap correctly', function () {
   var a  = 7

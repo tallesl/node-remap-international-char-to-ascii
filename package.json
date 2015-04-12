@@ -17,7 +17,7 @@
     "unicode"
   ],
   "license": "Fair",
-  "main": "./lib/remapInternationCharToAscii.js",
+  "main": "./lib/remap-international-char-to-ascii.js",
   "name": "remap-international-char-to-ascii",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.13",
