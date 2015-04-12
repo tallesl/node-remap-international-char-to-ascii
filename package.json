@@ -18,7 +18,7 @@
   ],
   "license": "Fair",
   "main": "./lib/remapInternationCharToAscii.js",
-  "name": "remapInternationalCharToAscii",
+  "name": "remap-international-char-to-ascii",
   "repository": {
     "type": "git",
     "url": "https://github.com/tallesl/remapInternationalCharToAscii.git"
