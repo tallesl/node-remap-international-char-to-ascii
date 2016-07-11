@@ -1,0 +1,23 @@
+'use strict'
+
+module.exports = (c) => {
+  if ('àáâäãåą'.indexOf(c) !== -1) return 'a'
+  else if ('èéêëę'.indexOf(c) !== -1) return 'e'
+  else if ('ìíîïı'.indexOf(c) !== -1) return 'i'
+  else if ('òóôõöøőð'.indexOf(c) !== -1) return 'o'
+  else if ('ùúûüŭů'.indexOf(c) !== -1) return 'u'
+  else if ('çćčĉ'.indexOf(c) !== -1) return 'c'
+  else if ('żźž'.indexOf(c) !== -1) return 'z'
+  else if ('śşšŝ'.indexOf(c) !== -1) return 's'
+  else if ('ñń'.indexOf(c) !== -1) return 'n'
+  else if ('ýÿ'.indexOf(c) !== -1) return 'y'
+  else if ('ğĝ'.indexOf(c) !== -1) return 'g'
+  else if (c === 'ř') return 'r'
+  else if (c === 'ł') return 'l'
+  else if (c === 'đ') return 'd'
+  else if (c === 'ß') return 'ss'
+  else if (c === 'Þ') return 'th'
+  else if (c === 'ĥ') return 'h'
+  else if (c === 'ĵ') return 'j'
+  else return ''
+}

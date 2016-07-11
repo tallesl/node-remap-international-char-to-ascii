@@ -1,10 +1,15 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/remapInternationalCharToAscii/issues"
+    "url": "https://github.com/tallesl/node-remap-international-char-to-ascii/issues"
   },
-  "description": "SO's RemapInternationalCharToAscii",
-  "homepage": "https://github.com/tallesl/remapInternationalCharToAscii",
+  "description": "Stack Overflow's RemapInternationalCharToAscii.",
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
+  },
   "keywords": [
     "RemapInternationalCharToAscii",
     "ascii",
@@ -17,19 +22,13 @@
     "unicode"
   ],
   "license": "Fair",
-  "main": "./lib/remap-international-char-to-ascii.js",
   "name": "remap-international-char-to-ascii",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/remapInternationalCharToAscii.git"
+    "url": "https://github.com/tallesl/node-remap-international-char-to-ascii.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
-  "version": "1.0.1",
-  "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.2.4"
-  }
+  "version": "1.0.2"
 }
